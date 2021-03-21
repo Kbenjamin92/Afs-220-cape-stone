@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Bangers', cursive;
+    color: rgb(10, 109, 92);
+    text-align: center;
+}
+h2, h3, ol{
+    text-align: center;
+}
+ul{
+    margin: 0 25%;
+}
+p{
+    margin: 2vh 5vw;
+}
