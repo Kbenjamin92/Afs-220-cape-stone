@@ -9,3 +9,11 @@ These are the instructions to run the program as of now.
 
 
 Still needs to have Apache, but the Postgres and Django are working. You can docker compose down and then docker compose up and the information is still there due to the volumes
+
+
+
+
+For the myCap folder 
+1. cd into myCap
+2. docker-compose up --build
+3. docker-compose down     this stops container
