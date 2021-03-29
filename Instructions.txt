@@ -1,0 +1,19 @@
+These are the instructions to run the program as of now. 
+
+1. cd into Test_Program
+2. docker-compose build
+3. docker-compose run --rm app python manage.py migrate
+4. docker-compose run --rm app python manage.py createsuperuser
+5. docker-compose up  -- to start containers
+6. docker-compose down --to stop containers
+
+
+Still needs to have Apache, but the Postgres and Django are working. You can docker compose down and then docker compose up and the information is still there due to the volumes
+
+
+
+
+For the myCap folder 
+1. cd into myCap
+2. docker-compose up --build
+3. docker-compose down     this stops container
